@@ -26,3 +26,6 @@ formInfo.addEventListener("submit", (e)=> {
     shedB = parseInt(formInfo.elements["shedB"].value);
     shedC = parseInt(formInfo.elements["shedC"].value);
     shedD = parseInt(formInfo.elements["shedD"].value);
+
+    let totalMilkProduction = shedA + shedB + shedC + shedD;
+
