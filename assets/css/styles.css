@@ -59,3 +59,50 @@ nav>ul>li>button{
     
 }
 #logo{
+.home{
+    width: 50%;
+    border: 1px solid grey;
+    height: 110vh;
+    text-align: center;
+    margin: 0 auto;
+    left: 50vh;
+    background-image: url(/assets/images/henrik-hjortshoj-ydRvKeoh86E-unsplash.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    /* height: 50%; */
+    top: 10vh;
+    /* left: 0; */
+    /* right: 0; */
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+
+
+    
+}
+form div{
+    display: flex;
+    width: 60%;
+    justify-content:space-around;
+    text-align: center;
+    padding: 2%;
+    
+    
+}
+form >div > input{
+    font-size: 24px;
+    position: relative;
+    left: 10vh;
+}
+.labels{
+    flex-direction:column;
+    text-align: center;
+    margin: 5%;
+    font-size: 24px;
+}
+.buttons{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+    
+}
