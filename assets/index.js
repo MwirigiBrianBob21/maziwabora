@@ -20,3 +20,5 @@ var months={
     november: 30,
     december: 31
 }
+
+formInfo.addEventListener("submit", (e)=> {
