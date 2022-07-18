@@ -4,3 +4,5 @@ let shedA = 0;
 let shedB = 0;
 let shedC = 0;
 let shedD = 0;
+
+const brooksideSellingPrice=45;
