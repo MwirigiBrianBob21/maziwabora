@@ -22,3 +22,7 @@ var months={
 }
 
 formInfo.addEventListener("submit", (e)=> {
+    shedA = parseInt(formInfo.elements["shedA"].value);
+    shedB = parseInt(formInfo.elements["shedB"].value);
+    shedC = parseInt(formInfo.elements["shedC"].value);
+    shedD = parseInt(formInfo.elements["shedD"].value);
