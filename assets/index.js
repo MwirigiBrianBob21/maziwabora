@@ -33,3 +33,6 @@ formInfo.addEventListener("submit", (e)=> {
     <textarea name="totalProduction" id="totalProduction" cols="30" rows="5">You have recorded ${totalMilkProduction}  litres</textarea>
 
 </div`
+let bodyContent=document.querySelector('body');
+bodyContent.innerHTML += myInnerHTML;
+});
