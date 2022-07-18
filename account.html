@@ -13,74 +13,25 @@
 <body>
     
     
-    <nav>
+        <nav>
         <ul>
             <li id="logo"><a href="./index.html"><h4>Maziwa Bora</h4></a></li>
             <li><a href="./home.html">Home</a></li>
             <li><a href="./account.html">Account</a></li>
+            <li><a href="./summary.html">Summary</a></li>
             <li><button>LOGIN</button></li>
         </ul>
     </nav>
-    
-    <div class="banner" id="banner">
-        <div class="banner_text">
-            <h1>Hello, this is Maziwa Bora Dairy Farm</h1>
-            <p>And this website shows our dairy records</p>
-            <button>Have a look</button>
 
-        </div>
-
-    </div>
-
-            <div class="home"> 
-                <h1><strong>Total Milk Prod</strong>uction Shed</h1>
-                    <form action="#" id="shedproductionform">
-                        <div class="labels">
-                            <label for="shedA"><strong>Shed A</strong></label>
-                            <input type="number" min(0) name="shedA">
-                        </div>
-                            <br>
-
-                        <div class="labels">
-                            <label for="shedB"><strong>Shed B</strong></label>
-                            <input type="number" min(0) name="shedB">
-                        </div>
-                            <br>
-
-                        <div class="labels">
-                            <label for="shedC"><strong>Shed C</strong></label>
-                            <input type="number" min(0)>
-                        </div>
-                            <br>
-
-                        <div class="labels">
-                            <label for="shedD"><strong>Shed D</strong></label>
-                            <input type="number" min(0)>
-                        </div>
-                            <br>
-                        <div class="totalProduction">
-                            <h2>Total Milk Production</h2>
-                            <textarea name="totalProduction" id="totalProduction" cols="10" rows="3"></textarea>
-
-                        </div>
-                        
-                    </form>
-                    <div class="buttons">
-                        <button type="reset">Record Again</button>
-                        <button type="subm">Total</button>
-                    </div>
-            </div>
 
             <div class="account">
                 <h2>Income</h2>
-                <p>Maziwa Bora income is calculated by a price of <em>Ksh. 45 </em> per litre.</p>
-                <p>This page will help you see the income over time as per the selling price</p>
-                <h3>The selling price is <input type="number"></h3>
-
-
-            </div>
-            <table id="production">
-                <tr id="rows">
+                    <p>Maziwa Bora income is calculated by a price of <em>Ksh. 45 </em> per litre.</p>
+                        <p>This page will help you see the income over time as per the selling price</p>
+                        <h3>Please enter Brookside's price per litre <input type="number">Selling price</h3>
+                
+                <table id="production">
+                 <tr id="rows">
                     <th>Shed</th>
                     <th>A</th>
                     <th>B</th>
@@ -184,9 +135,14 @@
                     <td> <input type="number"></td>
                     <td> <input type="number"></td>
                 </tr>
+                <tr>
+                    <td><em>Total</em></td>
+                    <td><input type="number"></td>
+                </tr>
                
                     
-            </table>
+                </table>
+            </div>
 
            
 </body>
