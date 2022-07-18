@@ -29,3 +29,7 @@ formInfo.addEventListener("submit", (e)=> {
 
     let totalMilkProduction = shedA + shedB + shedC + shedD;
 
+    let myInnerHTML= `
+    <textarea name="totalProduction" id="totalProduction" cols="30" rows="5">You have recorded ${totalMilkProduction}  litres</textarea>
+
+</div`
