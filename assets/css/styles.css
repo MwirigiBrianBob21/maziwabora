@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+*{
+    margin: o;
+    padding: 0;
+    font-family: 'Lato';
+}
 body{
     background-image:url(/assets/images/saksham-gangwar-PeS_fgE9y2U-unsplash.jpg);
     background-repeat: no-repeat;
@@ -59,6 +65,12 @@ nav>ul>li>button{
     
 }
 #logo{
+    position: relative; 
+    left: 0; 
+    text-decoration: none; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
 .home{
     width: 50%;
     border: 1px solid grey;
@@ -76,7 +88,7 @@ nav>ul>li>button{
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
     z-index: 2;
-
+    
 
     
 }
